@@ -1,0 +1,134 @@
+/*Estilos Globales*/
+/*Reset*/
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+/* Estilos generales */
+h1{
+    color: darkcyan;
+    background-color: darkgray;
+    font-size: 30pt;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Header */
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+
+header nav ul li a{
+    color:black;
+}
+
+/* Main Inicio*/
+
+.menu-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-hijo{
+    background-color: darkcyan;
+    width: 100px;
+    height: 50px;
+}
+
+main section div{
+    color: black;
+    text-align:justify ;
+}
+
+.imgmain{
+    width: 800px;
+    height: 600px ;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.imgmain2{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 1000px;
+    bottom: 504px;
+}
+
+/* Main Galeria */
+
+.galeriaimagenes1{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 250px;
+}
+.galeriaimagenes2{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 1000px;
+    bottom: 404px;
+}
+.galeriaimagenes3{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 250px;
+    bottom: 300px;
+}
+.galeriaimagenes4{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 1000px;
+    bottom: 704px;
+}
+.galeriaimagenes5{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 250px;
+    bottom: 600px;
+}
+.galeriaimagenes6{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 1000px;
+    bottom: 1004px;
+}
+
+/* Main Nosotros */
+
+.texto-nosotros{
+    text-align: center;
+    font-style: italic;
+}
+
+/* Main Sucursales */
+
+.parrafos-sucursales{
+    text-align: left;
+    font-size: 18pt;
+}
+
+/* Footer */
+
+section a{
+    color: blue;
+}
+
+section p{
+    text-align: center;
+}
