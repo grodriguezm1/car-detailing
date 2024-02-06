@@ -1,134 +1,179 @@
 /*Estilos Globales*/
 /*Reset*/
-/**{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
 
 /* Estilos generales */
 h1{
-    color: darkcyan;
-    background-color: darkgray;
-    font-size: 30pt;
-    font-style: italic;
+    color: white;
+    font-size: 60pt;
     text-align: center;
+}
+
+h2{
+    color: darkred;
+    font-size: 40pt;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body{
+    background-color: #1e1e1e;
 }
 
 /* Header */
 
-header img {
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+header img{
     width: 200px;
+    border-radius: 50%;
+}
+
+header nav ul{
     height: 200px;
-}
-
-
-header nav ul li a{
-    color:black;
-}
-
-/* Main Inicio*/
-
-.menu-main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    text-align: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+header nav ul li a{
+    color: darkred;
+    text-decoration: none;
 }
 
 .menu-hijo{
-    background-color: darkcyan;
-    width: 100px;
+    background-color:white;
+    width: 300px;
     height: 50px;
+    text-align: center;
+    font-size: 30pt;
+    list-style: none;
 }
 
-main section div{
-    color: black;
-    text-align:justify ;
+
+
+/* Main */
+
+.texto{
+    color: white;
+    font-size: 22pt;
+    text-align:center;
+    padding: 100px;
 }
 
-.imgmain{
-    width: 800px;
-    height: 600px ;
-    position: relative;
-    left: 50px;
-    top: 100px;
+.contenedor-imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 50%;
+    background-color: rgba(139, 0, 0, 0.164);
+    justify-items: center;
+    height: 600px;
+
 }
 
-.imgmain2{
+.contenedor-imagenes img{
     width: 800px;
     height: 600px;
-    position: relative;
-    left: 1000px;
-    bottom: 504px;
 }
 
 /* Main Galeria */
 
-.galeriaimagenes1{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 250px;
+.contenedor-galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,650px);
+    background-color: rgba(139, 0, 0, 0.164);
+    justify-items: center;
+
+    height: 1900px;
+    margin: 80px;
 }
-.galeriaimagenes2{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 1000px;
-    bottom: 404px;
-}
-.galeriaimagenes3{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 250px;
-    bottom: 300px;
-}
-.galeriaimagenes4{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 1000px;
-    bottom: 704px;
-}
-.galeriaimagenes5{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 250px;
-    bottom: 600px;
-}
-.galeriaimagenes6{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    left: 1000px;
-    bottom: 1004px;
+
+.contenedor-galeria img{
+    width: 800px;
+    height: 600px;
 }
 
 /* Main Nosotros */
 
 .texto-nosotros{
+    color: black;
+    font-size: 18pt;
     text-align: center;
     font-style: italic;
 }
 
+.imagen-nosotros1{
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.imagen-nosotros2{
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
 /* Main Sucursales */
 
-.parrafos-sucursales{
-    text-align: left;
-    font-size: 18pt;
+.titulo-sucursales{
+    margin-bottom: 70px;
+}
+.contenedor-sucursales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gps-texto h2{
+    color: white;
+    font-size: 30pt;
+}
+
+.gps{
+    width: 500px;
+    height: 500px;
+    background-color: #611f1ff1;
+    box-shadow: 9px 9px 17px 0px rgba(0,0,0,0.82);
+}
+
+.gps iframe{
+    width: 100%;
+    height: 400px;
 }
 
 /* Footer */
 
-section a{
-    color: blue;
+.redes-sociales{
+    margin-top: 100px;
+    text-align: center;
 }
 
-section p{
+.redes-sociales a{
+    color: white;
+}
+
+.footer-copy{
     text-align: center;
+    color: white;
 }
