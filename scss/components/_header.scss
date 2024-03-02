@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(216, 213, 213);
+    .logo img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+    }
+    .menu{
+        flex-grow: 0;
+        ul{
+            align-items: center;
+        }
+    }
+    .nav-link{
+        color: black;
+        font-size: 25px;
+        &:hover{
+            color: darkred;
+            text-decoration: underline;
+        }
+    }
+    .padding-0{
+        padding-left: 0;
+    }
+}
