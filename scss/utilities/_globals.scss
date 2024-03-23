@@ -1,0 +1,29 @@
+/* Estilos Globales*/
+h1{
+    @extend %estilos;
+    //color: white;
+    font-size: 60pt;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+    font-size: 40pt;
+    text-align: center;
+}
+
+h3{
+    @extend %estilos;
+    //color: white;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body{
+    background-color: nth($list: $colores, $n: 1);
+}
+
+.whatsapp{
+    display: none;
+}

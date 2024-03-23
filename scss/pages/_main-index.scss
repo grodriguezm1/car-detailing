@@ -1,0 +1,24 @@
+/* Main Index*/
+.main-index{
+    .portada{
+        .texto{
+            color: rgba(255, 255, 255, 0.884);
+            font-size: 22pt;
+            text-align:justify;
+            padding: 100px;
+        }
+        .contenedor-imagenes{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 50% 50%;
+            background-color: nth($list: $colores, $n: 5);
+            justify-items: center;
+            height: 500px;
+            img{
+                width: 700px;
+                height: 500px;
+                border-radius: 40%;
+            }
+        }
+    }
+}

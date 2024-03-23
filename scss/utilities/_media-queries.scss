@@ -1,0 +1,89 @@
+/* Media Queries */
+@media screen and (max-width: 768px){
+    /* Globals */
+    .whatsapp{
+        display: block;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 1;
+        img{
+            width: 120px;
+        }
+    }
+
+    /* Header */
+    header{
+        .menu{
+            position: absolute;
+            top: 150px;
+            background-color: nth($list: $colores, $n: 3);
+            width: 100vw;
+        }
+    }
+
+    /* Main Index*/
+    .main-index{
+        .portada{
+            .contenedor-imagenes{
+                @include flex(column, wrap, center, center);
+                //display: flex;
+                //flex-direction: column;
+                //justify-items: center;
+                //align-items: center;
+                background-color: nth($list: $colores, $n: 5);
+                height: 400px;
+                img{
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 40%;
+                }
+                }
+            }
+        }
+
+    /* Main Galeria*/
+    .main-galeria{
+        .contenedor-galeria{
+            @include flex(column, wrap, center, center);
+            //display: flex;
+            //flex-direction: column;
+            //justify-items: center;
+            //align-items: center;
+            background-color: nth($list: $colores, $n: 5);
+            height: 1270px;
+            img{
+                width: 300px;
+                height: 200px;
+                border-radius: 40%;
+            }
+        }
+    }
+
+    /* Main Nosotros */
+    .main-nosotros{
+        .nosotros-main{
+            @include flex(column, wrap, center, center);
+            //display: flex;
+            //flex-direction: column;
+            //flex-wrap: wrap;
+            //justify-content: center;
+            //align-items: center;
+            margin-top: 50px;
+            .nosotros-hijo{
+                padding: 10px;
+                img{
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 40%;
+                }
+                p{
+                    color: white;
+                    font-size: 22pt;
+                    text-align: justify;
+                    padding: 100px;
+                }
+            }
+        }
+    }
+}

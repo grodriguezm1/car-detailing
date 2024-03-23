@@ -1,5 +1,6 @@
+/* Estilos Header*/
 header{
-    background-color: rgb(216, 213, 213);
+    background-color: nth($list: $colores, $n: 3);
     .logo img{
         height: 200px;
         width: 200px;

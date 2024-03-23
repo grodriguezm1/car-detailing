@@ -1,0 +1,19 @@
+/* Main Galeria*/
+.main-galeria{
+    .contenedor-galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,650px);
+        background-color: nth($list: $colores, $n: 5);
+        justify-items: center;
+        gap: 10px;
+        height: 1820px;
+        margin: 80px;
+        img{
+            width: 700px;
+            height: 500px;
+            border-radius: 40%;
+        }
+        
+    }
+}
